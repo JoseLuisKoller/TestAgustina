@@ -38,6 +38,23 @@ header a {
 p {
   font-weight: 300; }
 
+.infoUs {
+  display: flex;
+  flex-direction: row;
+  padding: 2vw; }
+  @media (max-width: 400px) {
+    .infoUs {
+      flex-direction: column; } }
+  .infoUs .infoImg {
+    height: 50vh; }
+  .infoUs .infoText {
+    width: 50vw;
+    margin-left: 2vw; }
+    @media (max-width: 400px) {
+      .infoUs .infoText {
+        width: auto;
+        margin: 0; } }
+
 .slots {
   padding: 1vh;
   border: 1px gray solid;
